@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contador de Clicks</title>
+  </head>
+  <body>
+    <div>
+      <button
+        onclick="
+        cantidad=document.querySelector('#clickCount')
+        aumnetar=Number(cantidad.innerHTML)
+        aumnetar=aumentar+1
+        cantidad.innerHTML=aumentar
+        "
+      >
+        Click Me
+      </button>
+      <p id="clickCount">0</p>
+    </div>
+  </body>
+</html>
+
+<!-- Crea una página web con un botón que diga "Click Me". Cuando el usuario haga clic en el
+botón, muestra en la página cuántas veces ha hecho clic en él. Utiliza JavaScript para
+manejar el evento de clic y manipular el DOM para mostrar el conteo de clics. -->
