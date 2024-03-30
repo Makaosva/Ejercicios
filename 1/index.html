@@ -9,12 +9,15 @@
     <div>
       <button
         onclick="
+          cantidad=document.querySelector('#clickCount')
+          console.log('estoy aqui')
+          aumentar=Number(cantidad.innerHTML)
+          console.log('estoy aqui 2')
+          aumentar=aumentar+1
+          console.log('estoy aqui 3')
+          cantidad.innerHTML=aumentar
+          console.log('estoy aqui 4')
           alert('Estoy funcionando')
-          // cantidad=document.querySelector('#clickCount')
-          // aumnetar=Number(cantidad.innerHTML)
-          // aumnetar=aumentar+1
-          // alert('Estoy funcionando')
-          // cantidad.innerHTML=aumentar
         "
       >
         Click Me
